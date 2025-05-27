@@ -1,0 +1,118 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #e0f2f1, #b2dfdb); /* Приятный градиентный фон */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Чтобы контент занимал всю высоту экрана */
+}
+
+.container {
+
+    padding: 30px;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+h1 {
+    color: #00796b; /* Темно-зеленый заголовок */
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #26a69a; /* Зеленый подзаголовок */
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* Стили для информации о пользователе */
+.user-info {
+    border: 1px solid #80cbc4; /* Светло-зеленая граница */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.user-info p {
+    margin: 8px 0;
+    color: #37474f; /* Темно-серый текст */
+}
+
+.user-info strong {
+    font-weight: bold;
+    color: #009688; /* Ярко-зеленый для выделения */
+}
+
+/* Стили для формы редактирования */
+.edit-form {
+    border: 1px solid #80cbc4;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.edit-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #37474f;
+    font-weight: bold;
+    text-align: left;
+}
+
+.edit-form input[type="text"],
+.edit-form input[type="email"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #b2dfdb;
+    border-radius: 5px;
+    box-sizing: border-box; /* Важно для правильного расчета ширины */
+}
+
+/* Стили для поиска пользователей */
+.search-users {
+    border: 1px solid #80cbc4;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.search-users input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #b2dfdb;
+    border-radius: 5px;
+}
+
+#searchResults {
+    margin-top: 15px;
+    text-align: left;
+}
+
+/* Стили для кнопок */
+button {
+    background-color: #009688; /* Ярко-зеленый */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00796b; /* Более темный зеленый при наведении */
+}
+
+/* Дополнительные стили (по желанию) */
+#searchResults p {
+    color: #37474f;
+    margin: 5px 0;
+}
